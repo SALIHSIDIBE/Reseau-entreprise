@@ -45,6 +45,7 @@ Les configurations ont été entièrement réalisées et simulées sur **Cisco P
 ║           [Smartphone0]          ║         ║        [Smartphone2]             ║
 ║           [PC test VLAN30]       ║         ║                                  ║
 ╚══════════════════════════════════╝         ╚══════════════════════════════════╝
+
 ```
 
 
