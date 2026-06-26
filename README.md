@@ -231,17 +231,10 @@ Ces difficultés constituent une **base d'apprentissage essentielle** pour progr
 ```
 reseau-entreprise-cpt/
 │
-├── README.md                          ← Ce fichier
+├── README.md                         
 │
-├── rapport/
-│   └── Projet_Reseaux_TechNova.pdf   ← Rapport complet (31 pages)
-│
-└── docs/
-    ├── topologie.png                  ← Schéma topologie réseau
-    ├── plan-adressage.md              ← Plan d'adressage détaillé
-    └── configurations/
-        ├── routeur-siege.txt          ← Commandes CLI Routeur Siège
-        └── routeur-filiale.txt        ← Commandes CLI Routeur Filiale
+└── rapport/
+      └── Projet_Reseaux_TechNova.pdf   ← Rapport complet (31 pages)
 ```
 
 ---
@@ -265,7 +258,7 @@ reseau-entreprise-cpt/
 ## 👨‍💻 Auteur
 
 **SIDIBE Sâlih**  
-Mastère 1 Cybersécurité Systèmes & Réseaux — INGETIS Paris  
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/salih-sidibe)
 [![GitHub](https://img.shields.io/badge/GitHub-000?style=flat-square&logo=github&logoColor=white)](https://github.com/sidiama)
 
