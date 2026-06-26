@@ -27,19 +27,29 @@ Les configurations ont été entièrement réalisées et simulées sur **Cisco P
 ## 🏗️ Topologie réseau
 
 ```
-                    ┌─────────────────────────────────────┐
-   SIÈGE PRINCIPAL  │                                     │  FILIALE DISTANTE
-                    │                                     │
-  [Server0/DHCP]    │    Routeur Siège ──WAN── Routeur Filiale    │   [Server1/DHCP]
-       │            │    192.168.5.1   10.0.0.x  192.168.6.1      │        │
-  [Switch0]         │         │                       │           │   [Switch1]
-  /  |  |  \        │         │                       │           │   /  |  |  \
-V10 V20 V30 V40     │    [Access Point]          [Access Point]   │  V10 V20 V30 V40
-Admin Compt RH  IT  │    [Smartphone]            [Smartphone]     │ Admin Compt RH IT
-```
+╔══════════════════════════════════╗         ╔══════════════════════════════════╗
+║        SIÈGE PRINCIPAL           ║         ║        FILIALE DISTANTE          ║
+║                                  ║         ║                                  ║
+║  [Server0]      [Routeur siège]  ║──WAN────║  [Routeur filiale]  [Server1]    ║
+║  DHCP/DNS       192.168.5.1      ║10.0.0.x ║  192.168.6.1        DHCP/DNS     ║
+║                       │          ║         ║        │                         ║
+║                   [Switch0]      ║         ║    [Switch1]                     ║
+║                  Trunk VLAN      ║         ║   Trunk VLAN                     ║
+║                 /   |   |   \    ║         ║  /    |    |    \                ║
+║              V10   V20  V30  V40 ║         ║ V10  V20  V30   V40              ║
+║             Admin Compt  RH   IT ║         ║Admin Compt RH    IT              ║
+║          .1.x  .2.x .3.x .4.x    ║         ║ .10.x .20.x .30.x .40.x          ║
+║                                  ║         ║                                  ║
+║           [Access Point]         ║         ║        [Access Point]            ║
+║           Wi-Fi WPA2             ║         ║        Wi-Fi WPA2                ║
+║           [Smartphone0]          ║         ║        [Smartphone2]             ║
+║           [PC test VLAN30]       ║         ║                                  ║
+╚══════════════════════════════════╝         ╚══════════════════════════════════╝
 
-**Liaison WAN point à point :** `10.0.0.0/30`  
-**Routeur Siège :** `10.0.0.1` | **Routeur Filiale :** `10.0.0.2`
+                    Liaison WAN : 10.0.0.0/30
+                    Siège : 10.0.0.1  |  Filiale : 10.0.0.2
+
+---
 
 ---
 
