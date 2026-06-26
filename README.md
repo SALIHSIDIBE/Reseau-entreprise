@@ -51,7 +51,6 @@ Les configurations ont été entièrement réalisées et simulées sur **Cisco P
 
 ```
 
----
 
 ## 🛠️ Équipements utilisés
 
