@@ -31,7 +31,7 @@ Les configurations ont été entièrement réalisées et simulées sur **Cisco P
 ║        SIÈGE PRINCIPAL           ║         ║        FILIALE DISTANTE          ║
 ║                                  ║         ║                                  ║
 ║  [Server0]      [Routeur siège]  ║──WAN────║  [Routeur filiale]  [Server1]    ║
-║  DHCP/DNS       192.168.5.1      ║10.0.0.x ║  192.168.6.1        DHCP/DNS     ║
+║  DHCP/DNS       192.168.5.1      ║10.0.0.2 ║  192.168.6.1        DHCP/DNS     ║
 ║                       │          ║         ║        │                         ║
 ║                   [Switch0]      ║         ║    [Switch1]                     ║
 ║                  Trunk VLAN      ║         ║   Trunk VLAN                     ║
@@ -45,9 +45,6 @@ Les configurations ont été entièrement réalisées et simulées sur **Cisco P
 ║           [Smartphone0]          ║         ║        [Smartphone2]             ║
 ║           [PC test VLAN30]       ║         ║                                  ║
 ╚══════════════════════════════════╝         ╚══════════════════════════════════╝
-
-                    Liaison WAN : 10.0.0.0/30
-                    Siège : 10.0.0.1  |  Filiale : 10.0.0.2`
 
 ```
 
