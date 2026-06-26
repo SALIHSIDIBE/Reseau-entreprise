@@ -46,10 +46,10 @@ Les configurations ont été entièrement réalisées et simulées sur **Cisco P
 ║           [PC test VLAN30]       ║         ║                                  ║
 ╚══════════════════════════════════╝         ╚══════════════════════════════════╝
 
-                    Liaison WAN : 10.0.0.0/30
-                    Siège : 10.0.0.1  |  Filiale : 10.0.0.2
+                    **Liaison WAN point à point :** `10.0.0.0/30`  
+**Routeur Siège :** `10.0.0.1` | **Routeur Filiale :** `10.0.0.2`
 
----
+```
 
 ---
 
